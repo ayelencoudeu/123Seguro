@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>123Seguro</title>
+	<meta name="viewport" content="width=device-width, user-scalable=no, 
+	initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,600i,700" rel="stylesheet">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/7.26.11/sweetalert2.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/7.26.11/sweetalert2.min.js">
+
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+	<header>
+		<div class="container">
+			<input type="checkbox" id="btn-menu">
+			<label for="btn-menu"><i class="fas fa-bars"></i></label>
+			<nav class="logo-menu">
+				<a href="#">LOGO</a>
+			</nav>
+			<nav class="menu">
+				<ul>
+					<li><a href="#btn-seccionUno" id="btn-seccionUno">START</a></li>
+					<li><a href="#btn-seccionDos" id="btn-seccionDos">ABOUT ME</a></li>
+					<li><a href="#btn-seccionTres" id="btn-seccionTres">WORK</a></li>
+					<li><a href="#btn-seccionCuatro" id="btn-seccionCuatro">CONTACT</a></li>
+				</ul>
+			</nav>
+			<div class="contenedor-texto">
+				<div class="contenedor-titulo">
+					<h1>May I introduce myself?</h1>
+					<hr>
+					<p>Frontend Desing | UI/UX Desing
+				</div>
+			</div>
+		</div>	
+	</header>
+	<section class="main">
+		<div class="container">
+			<div class="btn-go">
+				<div class="btn-cont">
+					<a href="#">GO AHEAD</a>
+				</div>
+			</div>
+			<section class="main-Uno">
+				<h2 id="seccionUno">LITEBOXTEST</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos laborum maxime quis quam ad nesciunt explicabo sed ab in numquam amet voluptatem eaque porro neque quia, eveniet ipsum repellat quasi.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos laborum maxime quis quam ad nesciunt explicabo sed ab in numquam amet voluptatem eaque porro neque quia, eveniet ipsum repellat quasi.</p>
+			</section>
+			<section class="main-Dos">
+				<div class="fun" id="seccionDos">
+					<img src="Img/8.jpg" alt="">
+					<h3>Sckeching is fun</h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad, impedit. Harum est, iusto, soluta voluptate doloremque, ad quam quasi magnam corrupti suscipit porro neque at tenetur illo vel, maiores.</p>	
+				</div>
+				<div class="fun">
+					<img src="Img/4.jpg" alt="">
+					<h3>Design afterwards</h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad, impedit. Harum est, iusto, soluta voluptate doloremque, ad quam quasi magnam corrupti suscipit porro neque at tenetur illo vel, maiores.</p>	
+				</div>
+				<div class="fun">
+					<img src="Img/11.jpg" alt="">
+					<h3>finalize</h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad, impedit. Harum est, iusto, soluta voluptate doloremque, ad quam quasi magnam corrupti suscipit porro neque at tenetur illo vel, maiores.</p>	
+				</div>
+			</section>
+			<hr class="linea">
+			<section class="main-tres" >
+				<div class="galeria" id="seccionTres">
+					<div class="imgen">
+						<img src="Img/2.jpg" alt="">
+						<div class="texto">
+							<a href="#"><img src="Img/9.png" alt=""></a>
+							<h3>Aca va un titulo</h3>
+						</div>
+					</div>
+					<div class="imgen">
+						<img src="Img/3.jpg" alt="">
+						<div class="texto">
+							<a href="#"><img src="Img/9.png" alt=""></a>
+							<h3>Aca va un titulo</h3>
+						</div>
+					</div>
+					<div class="imgen ">
+						<img src="Img/6.jpg" alt="">
+						<div class="texto">
+							<a href="#"><img src="Img/9.png" alt=""></a>
+							<h3>Aca va un titulo</h3>
+						</div>
+					</div>
+					<div class="imgen">
+						<img src="Img/7.jpg" alt="">
+						<div class="texto">
+							<a href="#"><img src="Img/9.png" alt=""></a>
+							<h3>Aca va un titulo</h3>
+						</div>
+					</div>
+				</div>
+			</section>
+			<div class="btn-more">
+				<div class="btn-cont">
+					<a href="#">VIEW MORE <i class="fas fa-arrow-right"></i></a>
+				</div>
+			</div>
+			<hr class="linea">
+			<section class="main-cuatro" id="seccionCuatro">
+				<h3>Get in touch!</h3>
+				<form action="" method="post" id="formulario">
+					<div class="input-arriba">
+						<input type="text" name="nombre" placeholder="Name">
+						<input type="email" name="email" placeholder="Email">
+					</div>
+					<div class="mensaje">
+						<textarea name="mensaje" placeholder="Can I help you?"></textarea>
+					</div>
+					<ul class="error" id="error"> </ul>
+					<input type="submit" class="btn-formulario" value="Enviar">
+					
+				</form>
+			</section>
+			</div>
+	</section>
+	<footer>
+		<div class="contenedor-footer">
+			<div class="imagen-footer">
+				<a href="#"><img src="Img/1.png"></a>
+			</div>
+			<div class="imagen-footer">
+				<a href="#"><img src="Img/5.png"></a>
+			</div>
+			<div class="imagen-footer">
+				<a href="#"><img src="Img/12.png"></a>
+			</div>	
+		</div>
+		<div class="imprint">
+			<p>Imprint</p>
+		</div>
+	</footer>
+
+
+	<script src="js/jquery-3.1.1.min.js"></script>
+
+	<script src="js/validacion.js"></script>
+
+</body>
+</html>
